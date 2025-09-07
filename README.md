@@ -1,43 +1,76 @@
-🤖 Eva – Your Personal Voice Assistant
+🎤 EVA – Personal Voice Assistant
 
-Interactive voice assistant built with Python to automate tasks, provide information, and respond to voice commands.
+EVA (Enhanced Virtual Assistant) is a Python-based personal voice assistant that listens, understands, and responds to your commands. From answering questions to opening apps, EVA makes your everyday tasks easier with just your voice.
 
-🔍 Overview
+🚀 Features
 
-This project demonstrates a personal voice assistant named Eva that can:
+✅ Voice Recognition – Executes commands via speech
+✅ Text-to-Speech (TTS) – Responds in a human-like voice
+✅ Information Retrieval – Fetches data from Wikipedia and the web
+✅ System Automation – Open apps, files, and perform basic operations
+✅ Custom GUI – User-friendly interface built with Tkinter
 
-Listen and respond to user commands
+🛠️ Tech Stack
 
-Perform system tasks like opening applications and websites
+Language: Python
 
-Fetch information from Wikipedia
+Core Libraries:
 
-Tell the time and date
+speech_recognition – Voice input
 
-Perform basic calculations and text-to-speech interactions
+pyttsx3 – Text-to-speech output
 
-Built with Python, leveraging speech recognition, text-to-speech, and other libraries for smooth interaction.
+wikipedia – Information search
 
-🛠️ Features
+tkinter – GUI
 
-🎤 Voice recognition for real-time command processing
+📂 Installation
 
-🖥️ Can open websites, applications, and files
+Clone the repository
 
-📚 Wikipedia search integration for instant knowledge
+git clone https://github.com/your-username/eva-voice-assistant.git
+cd eva-voice-assistant
 
-⏰ Time, date, and reminders
 
-🔊 Text-to-speech responses for interactive conversation
+Install dependencies
 
-💻 Tech Stack
+pip install -r requirements.txt
 
-Python
 
-speech_recognition
+Run EVA
 
-pyttsx3
+python main.py
 
-wikipedia
+🎮 Usage
 
-os and system libraries
+Launch EVA
+
+Speak your command (e.g., “Open YouTube”, “Tell me about Python”)
+
+EVA will respond and execute the task
+
+🔮 Future Improvements
+
+Smarter NLP-based conversations
+
+API integrations (Weather, News, ChatGPT)
+
+Dark mode GUI design
+
+Mobile and IoT support
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new branch (feature-branch)
+
+Commit changes and open a PR
+
+📜 License
+
+This project is licensed under the MIT License.
+
+✨ Your AI-powered voice assistant, always ready to help! ✨
